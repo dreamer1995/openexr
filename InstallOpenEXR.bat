@@ -1,4 +1,5 @@
 @echo off
+cd ..\..\openexr
 if not exist %cd%\_build (
     mkdir _build
     cd _build
